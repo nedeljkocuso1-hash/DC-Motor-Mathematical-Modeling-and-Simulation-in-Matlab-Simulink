@@ -26,7 +26,7 @@ $$\frac{d\omega}{dt} = \frac{1}{J} (\Psi_P I_a - M_{load} - k_w \omega)$$
 ## 🛠️ Usage Instructions
 1. **Initialize**: Run the `mjs.m` script to load all variables into the MATLAB Workspace.
 2. **Open Model**: Launch `mmodel_dcMotor.slx` in Simulink.
-3. **Solver Settings**: Ensure the solver is set to **Fixed-step (ode4)** with a step size of $10\mu$s for high-fidelity results.
+3. **Solver Settings**: Ensure the solver is set to **Fixed-step (ode4)** with a step size of $10\mus$ for high-fidelity results.
 4. **Simulate**: Click **Run** and observe the Scope outputs for Current and Speed.
 
 ---

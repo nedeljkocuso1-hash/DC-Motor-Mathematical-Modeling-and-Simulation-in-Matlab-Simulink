@@ -12,7 +12,7 @@ The primary goal of this simulation is to analyze the transient response of arma
 * **Voltage Ramp & Saturation**: Implements a linear voltage increase from $0$ to $400V$ over $3$ seconds, utilizing a Saturation block to maintain steady-state nominal voltage.
 * **Structural Modeling**: Built using fundamental integrators and gain blocks to maintain a clear 1:1 relationship with the underlying physics.
 * **Dynamic Parameter Integration**: All motor constants ($R_a, L_a, J, \Psi_P, k_w$) are dynamically pulled from the MATLAB Workspace for easy tuning.
-* **Load Disturbance Analysis**: Simulates a step-load torque at $t = 7$s to evaluate speed regulation and current compensation.
+* **Load Disturbance Analysis**: Simulates a step-load torque at $t = 7s$ to evaluate speed regulation and current compensation.
 
 ## 📊 Mathematical Foundation
 The system is governed by the following coupled first-order differential equations:
